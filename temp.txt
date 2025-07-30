@@ -1,4 +1,6 @@
 This is the temp file
+
+git -c http.sslVerify=false clone https://github.com/RaviSawaimul/RS-GitHubAction.git => git clone issue with SSL
 git commit -h (-h for any help with git commands)
 add . (add all files)
 add hello.txt (add specific file only)
@@ -9,6 +11,18 @@ reset =>removes all staged file changes.
 branch +> Shows all branches
 branch FeatureBranch  +> Creates new branch named "featureBranch"
 checkout FeatureBranch  +> Makes branch "featureBranch" as current branch
+add/commit/log
+log
+show <hash> =>shows all the files changed in that commit hash
+reflog => shows all commit & checkout activities done so far with local repo
+checkout main  +> Makes branch "main" as current branch
+merge featureBranch
+
+git -c http.sslVerify=false push => git push issue with SSL
+git -c http.sslVerify=false pull => git pull issue with SSL
+
+
+ 
 
  
 
