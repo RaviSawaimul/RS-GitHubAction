@@ -1,1 +1,18 @@
 This is the temp file
+git commit -h (-h for any help with git commands)
+add . (add all files)
+add hello.txt (add specific file only)
+commit -m "commit label"
+log =>gives status of all commited changes so far in current branch with commit id/labels
+status =>gives overview of all to be staged/added/updated changes so far
+reset =>removes all staged file changes.
+branch +> Shows all branches
+branch FeatureBranch  +> Creates new branch named "featureBranch"
+checkout FeatureBranch  +> Makes branch "featureBranch" as current branch
+
+ 
+
+
+ 
+ 
+
