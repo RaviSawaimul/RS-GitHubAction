@@ -1,4 +1,10 @@
 This is the temp file
+C:\Development_Avecto\Git-Projects\RS-GitHubAction
+
+Below 2 commands to get rid of ssl cert error so that push pull actions would run without any issues.... 
+git config --global http.sslbackend schannel 
+git config --global http.sslcainfo /mingw64/ssl/certs/ca-bundle.crt
+
 
 git -c http.sslVerify=false clone https://github.com/RaviSawaimul/RS-GitHubAction.git => git clone issue with SSL
 git commit -h (-h for any help with git commands)
